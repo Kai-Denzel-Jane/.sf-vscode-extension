@@ -37,3 +37,8 @@ Function myFunctionName (text param1, number param2) returns Bool // !! <-- "Boo
 	    return false;
     }
 }
+
+// Players
+
+Global Character cPlayer1;
+Global Character cPlayer2;
