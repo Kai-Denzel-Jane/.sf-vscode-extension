@@ -1,0 +1,39 @@
+// For primitive variables :
+
+Number variableNumber(4.8);
+Text textVar("abcdef");
+Bool booleanVar(false);
+
+
+// For object of class variables :
+
+ClassName varName( functiontogetthisvariable() );
+Character npc(GetCharacter());
+Position myPos(2, 1, 3);
+Character characterNull; // < this variable is null
+
+State Base() {
+
+    Conditions
+    {
+        // Your code here (executed every frames)
+    };
+    Actions
+    {
+        // Your code here (execute one frame)
+    };
+}
+
+Base();
+
+Function myFunctionName (text param1, number param2) returns Bool // !! <-- "Bool" is the type returned, so if you want to return a number put "Number"
+{
+    if ( true )
+    {
+    	    return true;
+    }
+    else
+    {
+	    return false;
+    }
+}
