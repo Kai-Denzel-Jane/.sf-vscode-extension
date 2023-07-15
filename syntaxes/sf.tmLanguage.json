@@ -52,7 +52,7 @@
       "patterns": [
         {
           "name": "meta.definition.variable.primitive.sf",
-          "match": "\\b(Bool|Number|Text)\\b",
+          "match": "\\b(Bool|Number|Text|Global)\\b",
           "captures": {
             "1": {
               "name": "storage.type.primitive.sf"
@@ -94,9 +94,19 @@
               "name": "string.quoted.sf"
             }
           }
+        },
+        {
+          "name": "entity.name.type.class.sf",
+          "match": "\\b(ClassName|Character|Position)\\b",
+          "captures": {
+            "0": {
+              "name": "entity.name.type.class.sf"
+            }
+          }
         }
       ]
     },
+        
     "objectVariables": {
       "patterns": [
         {
