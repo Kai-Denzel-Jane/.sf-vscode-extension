@@ -1,0 +1,25 @@
+{
+  "name": "sf-support",
+  "displayName": "SF Support",
+  "description": "SF Support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "sf",
+      "aliases": ["SF ", "sf"],
+      "extensions": [".SF",".sf"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "sf",
+      "scopeName": "source.sf",
+      "path": "./syntaxes/sf.tmLanguage.json"
+    }]
+  }
+}
